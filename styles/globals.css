@@ -381,7 +381,7 @@ opacity: 0;
   background-color: #0c0c0c;
   color: white;
   width: 100%;
-  max-height: 4000px;
+  max-height: 9999px;
 }
 .paddingBottom{
   padding-bottom: 20px;
@@ -567,7 +567,7 @@ width: 360px;
   background-color: #0c0c0c;
   color:white;
   width: 100%;
-  max-height: 10000px;
+  max-height: 9999px;
 }
 #gallery h2{
   font-size: 2.6rem;
