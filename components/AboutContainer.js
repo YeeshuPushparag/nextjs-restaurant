@@ -19,7 +19,7 @@ const AboutContainer = () => {
         <button id='about-btn'>Know More</button>
           </Link>}
       </div>
-      <div className="image-container">
+      <div className="image-container" id="history">
         <div className="image" id='burger-image'>
         <Image
           layout="fill"
@@ -36,7 +36,7 @@ const AboutContainer = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis recusandae obcaecati omnis maxime quas debitis quisquam dicta soluta, quae voluptas sapiente neque, magni autem dolore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deleniti nihil sequi quisquam molestias odit minus consequuntur beatae error voluptas ratione distinctio odio quos debitis ab quas, ipsum aliquam optio rerum, accusamus esse dignissimos similique. Recusandae nihil dolores natus adipisci voluptatum, ipsum ab at voluptatem. Voluptatum ad dicta obcaecati veritatis, consequatur sunt minus neque. Nisi!</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis recusandae obcaecati omnis maxime quas debitis quisquam dicta soluta, quae voluptas sapiente neque, magni autem dolore!</p></>
     }
-      {router.pathname==="/" && <Link href="/about" className="link">
+      {router.pathname==="/" && <Link href="/about#history" className="link">
         <button id='history-btn'>Know More</button>
           </Link>}
       </div>

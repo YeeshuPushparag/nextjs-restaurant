@@ -21,8 +21,12 @@
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: white;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   position: relative;
+  scroll-behavior: smooth;
 }
 .topBar {
   width: 100%;
