@@ -36,7 +36,7 @@ const Footer = () => (
     </div>
 
     <div className="footer-copyright">
-      <p className="p__opensans">Copyright &copy; Created by Yeeshu Pushparag.</p>
+      <p className="p__opensans">Copyright &copy; Created by <a href="https://yeeshupushparag.github.io/" className="link creator"  target='_blank' rel="noreferrer">Yeeshu Pushparag</a></p>
     </div>
 
   </footer>
